@@ -1,79 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>TopSports - Sua Loja Esportiva</title>
-    <style>
-        body { font-family: sans-serif; margin: 0; padding: 0; }
-        header, footer { background: #222; color: white; text-align: center; padding: 20px; }
-        nav ul { display: flex; justify-content: center; gap: 20px; list-style: none; padding: 0; }
-        nav a { text-decoration: none; color: #0066cc; }
-        section { padding: 20px; }
-        img { max-width: 100%; height: auto; border-radius: 8px; }
-        .produtos, .loja { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
-        iframe { width: 100%; height: 300px; border: none; border-radius: 8px; }
-    </style>
+  <meta charset="UTF-8">
+  <title>Loja Esportiva</title>
 </head>
 <body>
+  <img src="imgs/logo.jpg" alt="Logo da Loja" width="150">
+  <h1>Loja Esportiva</h1>
 
-<header>
-    <img src="/imgs/logo.jpg" alt="Logo da loja" width="100">
-    <h1>TopSports</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="esporte/basquete/index.html">Basquete</a></li>
-            <li><a href="esporte/handebol/index.html">Handebol</a></li>
-            <li><a href="esporte/futebol/index.html">Futebol</a></li>
-        </ul>
-    </nav>
-</header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="Esportes/Basquete/index.html">Basquete</a></li>
+      <li><a href="Esportes/Futebol/index.html">Futebol</a></li>
+      <li><a href="Esportes/Handebol/index.html">Handebol</a></li>
+    </ul>
+  </nav>
 
-<main>
-    <section>
-        <h2>Sobre a Loja</h2>
-        <p>Na TopSports você encontra produtos para todos os esportes. Atendemos com qualidade e preço justo.</p>
-        <div class="loja">
-            <img src="imgs/Interior da loja.jpg" alt="Interior da loja">
-            <img src="imgs/Fachada da loja.jpg" alt="Fachada da loja">
-        </div>
-    </section>
+  <h2>Sobre a Loja</h2>
+  <p>Somos especialistas em artigos esportivos. Trabalhamos com produtos de qualidade para basquete, futebol e handebol.</p>
 
-    <section>
-        <h2>Produtos em Destaque</h2>
-        <div class="produtos">
-            <a href="esporte/futebol/index.html"><img src="imgs/Chuteira.jpg" alt="Produto futebol" width="200"></a>
-            <a href="esorte/Basquete/index.html"><img src="imgs/Camisa de basquete.jpg" alt="Produto basquete" width="200"></a>
-            <a href="esporte/handebol/index.html"><img src="imgs/Tênis de handebol.jpg" alt="Produto handebol" width="200"></a>
-        </div>
-    </section>
+  <h2>Produtos em Destaque</h2>
+  <a href="Esportes/Basquete/index.html"><img src="imgs/Camisa de basquete.jpg" width="200" alt="Camisa de basquete"></a>
+  <a href="Esportes/Futebol/index.html"><img src="imgs/Chuteira.jpg" width="200" alt="Chuteira de futebol"></a>
+  <a href="Esportes/Handebol/index.html"><img src="imgs/Tênis de handebol.jpg" width="200" alt="Tênis de handebol"></a>
 
-    <section>
-        <h2>Onde Estamos</h2>
-        <p>Rua do Esporte, 123 - Centro, São Paulo</p>
-        <iframe src="https://www.google.com/maps/embed?pb=..."></iframe>
-    </section>
+  <h2>Imagens da loja</h2>
+  <img src="imgs/Fachada da loja.jpg" width="300">
+  <img src="imgs/Interior da loja.jpg" width="300">
 
-    <section>
-        <h2>Formas de Pagamento</h2>
-        <ul>
-            <li>PIX</li>
-            <li>Cartão de Crédito</li>
-            <li>Débito</li>
-            <li>Boleto</li>
-            <li>Dinheiro</li>
-        </ul>
-    </section>
+  <h2>Formas de Pagamento</h2>
+  <ul>
+    <li>Pix</li>
+    <li>Cartão de crédito</li>
+    <li>Boleto bancário</li>
+    <li>Dinheiro</li>
+  </ul>
 
-    <section>
-        <h2>Proprietários</h2>
-        <p>Gilzilene Orneles de Sales</p>
-    </section>
-</main>
+  <h2>Proprietários</h2>
+  <ul>
+    <li>Gilzilene Orneles de Sales</li>
+  </ul>
 
-<footer>
-    <p>&copy; 2025 TopSports</p>
-</footer>
-
+  <h2>Endereço da Loja</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=..." width="400" height="300" style="border:0;" allowfullscreen loading="lazy"></iframe>
 </body>
 </html>
